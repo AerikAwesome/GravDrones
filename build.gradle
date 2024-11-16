@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"gravdrones" {
+		"gravdones" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

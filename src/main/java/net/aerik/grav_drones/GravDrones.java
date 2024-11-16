@@ -1,5 +1,6 @@
 package net.aerik.grav_drones;
 
+import net.aerik.grav_drones.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class GravDrones implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initializing mod " + GravDrones.MOD_ID);
+
+		ModItems.registerModItems();
 	}
 }
